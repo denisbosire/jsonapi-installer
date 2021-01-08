@@ -1,0 +1,30 @@
+{
+  "name": "denisbosire/jsonapi-installer",
+  "authors": [
+    {
+      "name": "Denis Bosire",
+      "email": "dbosire88@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:denisbosire/jsonapi.git"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "config": { 
+    "vendor-dir": "wp-content/plugins/jsonapi/vendor" 
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "pixeltribe/jsonapi": "dev-main"
+  },
+
+}
