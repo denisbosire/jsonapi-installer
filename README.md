@@ -16,5 +16,5 @@ Navigate 'wp-content/plugin/jsonapi/vendor' then run;
 `composer install` 
 
 # 4. Activate the plugin
-Navigate to plugin, then activate jsonapi.  
-Navigate to https://YOURWPURL/custom_url 
+Navigate to admin dashboard > plugins, activate jsonapi.  
+Navigate to https://YOURWPURL/custom_url on your browser.
