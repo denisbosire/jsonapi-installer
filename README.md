@@ -6,6 +6,7 @@ Navigate to your WP root directory, then download composer.json.
 
 ## Then run:
 `composer install`. 
+
 This might take a few minutes, it will install a plugin called 'jsonapi' in wp-content/plugin/jsonapi
 
 # issues
