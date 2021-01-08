@@ -1,5 +1,5 @@
 {
-  "name": "denisbosire/jsonapi-installer",
+  "name": "denisbosire/jsonapi",
   "authors": [
     {
       "name": "Denis Bosire",
@@ -19,12 +19,11 @@
       ]
     }
   },
-  "config": { 
-    "vendor-dir": "wp-content/plugins/jsonapi/vendor" 
-  },
   "minimum-stability": "dev",
   "require": {
     "pixeltribe/jsonapi": "dev-main"
   },
-
+    "config": { 
+    "vendor-dir": "wp-content/plugins/jsonapi/vendor" 
+  }
 }
