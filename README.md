@@ -1,6 +1,6 @@
 # jsonapi-installer
-Use to setup the jsonapi demo plugin for inpsyde
-# download composer.json
+Use to setup the jsonapi demo plugin for inpsyde *(access to the private repo required)*
+## Download composer.json
 Navigate to your WP root directory, then download composer.json
 `wget https://github.com/denisbosire/jsonapi-installer/blob/main/composer.json`
 
@@ -10,4 +10,6 @@ This might take a few minutes, it will install a plugin called 'jsonapi' in wp-c
 
 # issues
 Sometimes the vendor folder doesnt get auto populated with all the packages
-Navigate 'wp-content/plugin/jsonapi/vendor'
+Navigate 'wp-content/plugin/jsonapi/vendor' then run;
+`composer install` 
+
