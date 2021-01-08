@@ -12,7 +12,7 @@ This might take a few minutes, it will install a plugin called '**jsonapi**' in 
 
 # 3. Issues
 Sometimes the vendor folder doesnt get auto populated with all the packages
-Navigate 'wp-content/plugins/jsonapi/vendor' then run;
+Navigate '**wp-content/plugins/jsonapi/vendor**' then run;
 `composer install` 
 
 # 4. Activate the plugin
