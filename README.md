@@ -2,7 +2,7 @@
 Use this to setup the jsonapi demo plugin for inpsyde via composer (*access to the private repo required*)
 
 ## 1. Download composer.json
-Navigate to your WP root directory, then download composer.json. 
+Navigate to your WP root directory, then download composer.json   
 `wget https://github.com/denisbosire/jsonapi-installer/blob/main/composer.json`
 
 ## 2. Then run:
